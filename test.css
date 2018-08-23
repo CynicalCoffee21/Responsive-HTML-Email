@@ -1,0 +1,74 @@
+.email-background{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  background: #FFFFFF;
+  padding: 10px;
+}
+.message-title{
+  margin-left: 60px;
+  font-family: Sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: #FF0000;
+}
+.message-body{
+  margin-left: 60px;
+  margin-right: 50px;
+  font-family: Sans-serif;
+  text-align: left;
+  color: #000000;
+}
+.unsub{
+  font-size: 10px;
+}
+
+.divider{
+  width: 15px;
+  display: inline-block;
+}
+.buttons{
+  text-align: left;
+  margin-left: 60px;
+
+}
+.button1{
+  background-color: #670808;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  width: 28%;
+}
+.button2{
+  background-color: #fb2c2c;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  width: 28%;
+}
+.button3{
+  background-color: #b72b2b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  width: 28%;
+}
+@media all and (max-width:800px){
+  .button1, .button2, .button3{
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .divider{
+    height: 15px;
+  }
+}
